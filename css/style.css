@@ -4,6 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html {
+    scroll-behavior: smooth;
+}
 body{
     font-family: "Poppins", serif;
     overflow-x: hidden;
@@ -317,6 +320,9 @@ a:hover{
     position: relative;
     padding: 30px;
     transition: all 0.3s;
+}
+.peplesays-cards .container{
+    overflow: hidden;
 }
 .peoplesays-card:hover{
     transform: translateY(-10px);
