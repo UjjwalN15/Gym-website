@@ -267,7 +267,7 @@
                 </div>
             </div>
         </section>
-        <section class="people-says flex-center">
+        <section class="people-says flex-center" id="people-says">
             <div class="container">
                 <div class="peoplesays-heading">
                     <h3>What People Says About Us?</h3>
@@ -381,6 +381,7 @@
         <p>Copyright © 2023 Web Design Mastery. All rights reserved.</p>
     </footer>
 </body>
+<script src="https://unpkg.com/scrollreveal"></script>
 <script>
     const dots = document.querySelectorAll('.box');
     const classesDots = document.querySelectorAll('.classes-dot');
@@ -398,7 +399,20 @@
         });
     });
 
+    const sections = ['#herosection', '#oursection', '#classes', '#trainers', '#pricing', '#people-says'];
+    const sr = ScrollReveal();
+sections.forEach(section => {
+    sr.reveal(section, {
+        origin: 'bottom',
+        distance: '50px',
+        duration: 1000,
+        delay: 200,
+        reset: true
+    });
+});
+
 
 </script>
+
 
 </html>
