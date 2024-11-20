@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="shortcut icon" href="/images/asset 0.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
 </head>
 
 <body>
@@ -215,7 +216,7 @@
                         unique needs.</p>
                 </div>
                 <div class="pricing-cards flex">
-                    <div class="pricing-card flex">
+                    <div class="pricing-card flex" id='basic-plan'>
                         <h2>Basic Plan</h2>
                         <img src="/images/asset 11.png" alt="Dumbell">
                         <p>Our Basic Plan is the perfect starting point for individuals looking to kickstart their
@@ -230,7 +231,7 @@
                         </div>
                         <button>Join Now</button>
                     </div>
-                    <div class="pricing-card flex">
+                    <div class="pricing-card flex" id='weekly-plan'>
                         <h2>Weekly Plan</h2>
                         <img src="/images/asset 12.png" alt="Dumbell">
                         <p>Our weekly plan is designed to provide structure and variety to your workouts, ensuring you
@@ -246,7 +247,7 @@
                         </div>
                         <button>Join Now</button>
                     </div>
-                    <div class="pricing-card flex">
+                    <div class="pricing-card flex" id='monthly-plan'>
                         <h2>Monthly Plan</h2>
                         <img src="/images/asset 12.png" alt="Dumbell">
                         <p>With this flexible membership, you'll have access to our state-of-the-art gym facilities,
@@ -268,7 +269,7 @@
             </div>
         </section>
         <section class="people-says flex-center" id="people-says">
-            <div class="container">
+            <div class="container swiper-container">
                 <div class="peoplesays-heading">
                     <h3>What People Says About Us?</h3>
                     <hr class="hrspecial">
@@ -276,49 +277,135 @@
                         fitness goals, and fostering a supportive environment for everyone who walks through our doors.
                     </p>
                 </div>
-                <div class="peoplesays-cards flex">
-                    <div class="peoplesays-card">
-                        <div class="card-header">
-                            <img src="/images/asset 14.jpeg" alt="User Image" class="user-image">
-                            <div class="rating flex">
-                                <span>⭐</span>
-                                <span>⭐</span>
-                                <span>⭐</span>
-                                <span>⭐</span>
-                                <span>⭐</span>
+                <div class="swiper swiperbox flex-center">
+                    <div class="swiper-wrapper boxwrapper flex">
+                        <div class="swiper-slide slide">
+                            <div class="card-header">
+                                <img src="/images/asset 14.jpeg" alt="User Image" class="user-image">
+                                <div class="rating flex">
+                                    <span>⭐</span>
+                                    <span>⭐</span>
+                                    <span>⭐</span>
+                                    <span>⭐</span>
+                                    <span>⭐</span>
+                                </div>
+                            </div>
+                            <p class="card-text">
+                                The variety of classes and the supportive community have kept me motivated.
+                                I've shed pounds, gained confidence, and found a new level of energy to inspire my students.
+                            </p>
+                            <div class="user-info">
+                                <strong>John Davis</strong>
+                                <p>Teacher</p>
                             </div>
                         </div>
-                        <p class="card-text">
-                            The variety of classes and the supportive community have kept me motivated.
-                            I've shed pounds, gained confidence, and found a new level of energy to inspire my students.
-                        </p>
-                        <div class="user-info">
-                            <strong>John Davis</strong>
-                            <p>Teacher</p>
-                        </div>
-                    </div>
-                    <div class="peoplesays-card">
-                        <div class="card-header">
-                            <img src="/images/asset 14.jpeg" alt="User Image" class="user-image">
-                            <div class="rating flex">
-                                <span>⭐</span>
-                                <span>⭐</span>
-                                <span>⭐</span>
-                                <span>⭐</span>
-                                <span>⭐</span>
+                        <div class="swiper-slide slide">
+                            <div class="card-header">
+                                <img src="/images/asset 15.jpeg" alt="User Image" class="user-image">
+                                <div class="rating flex">
+                                    <span>⭐</span>
+                                    <span>⭐</span>
+                                    <span>⭐</span>
+                                    <span>⭐</span>
+                                    <span>⭐</span>
+                                </div>
+                            </div>
+                            <p class="card-text">
+                                The variety of classes and the supportive community have kept me motivated.
+                                I've shed pounds, gained confidence, and found a new level of energy to inspire my students.
+                            </p>
+                            <div class="user-info">
+                                <strong>John Davis</strong>
+                                <p>Teacher</p>
                             </div>
                         </div>
-                        <p class="card-text">
-                            The variety of classes and the supportive community have kept me motivated.
-                            I've shed pounds, gained confidence, and found a new level of energy to inspire my students.
-                        </p>
-                        <div class="user-info">
-                            <strong>John Davis</strong>
-                            <p>Teacher</p>
+                        <div class="swiper-slide slide">
+                            <div class="card-header">
+                                <img src="/images/asset 16.jpeg" alt="User Image" class="user-image">
+                                <div class="rating flex">
+                                    <span>⭐</span>
+                                    <span>⭐</span>
+                                    <span>⭐</span>
+                                    <span>⭐</span>
+                                    <span>⭐</span>
+                                </div>
+                            </div>
+                            <p class="card-text">
+                                The variety of classes and the supportive community have kept me motivated.
+                                I've shed pounds, gained confidence, and found a new level of energy to inspire my students.
+                            </p>
+                            <div class="user-info">
+                                <strong>John Davis</strong>
+                                <p>Teacher</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide slide">
+                            <div class="card-header">
+                                <img src="/images/asset 17.jpeg" alt="User Image" class="user-image">
+                                <div class="rating flex">
+                                    <span>⭐</span>
+                                    <span>⭐</span>
+                                    <span>⭐</span>
+                                    <span>⭐</span>
+                                    <span>⭐</span>
+                                </div>
+                            </div>
+                            <p class="card-text">
+                                The variety of classes and the supportive community have kept me motivated.
+                                I've shed pounds, gained confidence, and found a new level of energy to inspire my students.
+                            </p>
+                            <div class="user-info">
+                                <strong>John Davis</strong>
+                                <p>Teacher</p>
+                            </div>
                         </div>
                     </div>
-                    
                 </div>
+                <!-- <div class="swiper">
+                    <div class="peoplesays-cards swiper-wrapper flex ">
+                        <div class="peoplesays-card swiper-slide">
+                            <div class="card-header">
+                                <img src="/images/asset 14.jpeg" alt="User Image" class="user-image">
+                                <div class="rating flex">
+                                    <span>⭐</span>
+                                    <span>⭐</span>
+                                    <span>⭐</span>
+                                    <span>⭐</span>
+                                    <span>⭐</span>
+                                </div>
+                            </div>
+                            <p class="card-text">
+                                The variety of classes and the supportive community have kept me motivated.
+                                I've shed pounds, gained confidence, and found a new level of energy to inspire my students.
+                            </p>
+                            <div class="user-info">
+                                <strong>John Davis</strong>
+                                <p>Teacher</p>
+                            </div>
+                        </div>
+                        <div class="peoplesays-card swiper-slide">
+                            <div class="card-header">
+                                <img src="/images/asset 14.jpeg" alt="User Image" class="user-image">
+                                <div class="rating flex">
+                                    <span>⭐</span>
+                                    <span>⭐</span>
+                                    <span>⭐</span>
+                                    <span>⭐</span>
+                                    <span>⭐</span>
+                                </div>
+                            </div>
+                            <p class="card-text">
+                                The variety of classes and the supportive community have kept me motivated.
+                                I've shed pounds, gained confidence, and found a new level of energy to inspire my students.
+                            </p>
+                            <div class="user-info">
+                                <strong>John Davis</strong>
+                                <p>Teacher</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div> -->
             </div>
         </section>
     </main>
@@ -382,6 +469,7 @@
     </footer>
 </body>
 <script src="https://unpkg.com/scrollreveal"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script>
     const dots = document.querySelectorAll('.box');
     const classesDots = document.querySelectorAll('.classes-dot');
@@ -401,17 +489,49 @@
 
     const sections = ['#herosection', '#oursection', '#classes', '#trainers', '#pricing', '#people-says'];
     const sr = ScrollReveal();
-sections.forEach(section => {
-    sr.reveal(section, {
-        origin: 'bottom',
+    sections.forEach(section => {
+        sr.reveal(section, {
+            origin: 'bottom',
+            distance: '50px',
+            duration: 1000,
+            delay: 200,
+            reset: true
+        });
+    });
+
+    const basicplan = document.getElementById('basic-plan')
+    const weeklyplan = document.getElementById('weekly-plan')
+    const monthlyplan = document.getElementById('monthly-plan')
+    sr.reveal(basicplan,{
+        origin: 'left',
         distance: '50px',
         duration: 1000,
         delay: 200,
         reset: true
     });
-});
+    sr.reveal(weeklyplan,{
+        origin: 'left',
+        distance: '50px',
+        duration: 1000,
+        delay: 600,
+        reset: true
+    });
+    sr.reveal(monthlyplan,{
+        origin: 'left',
+        distance: '50px',
+        duration: 1000,
+        delay: 1000,
+        reset: true
+    });
 
 
+    const swiper = new Swiper(".swiper", {
+        loop: true,
+        slidesPerView: 'auto',
+        spaceBetween: 20,
+    });
+
+    
 </script>
 
 

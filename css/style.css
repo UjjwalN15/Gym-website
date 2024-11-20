@@ -306,14 +306,15 @@ a:hover{
 .peoplesays-heading{
     margin-top: 35px;
 }
-.peoplesays-cards{
+/* .peoplesays-cards{
     margin-top: 100px;
     width: 100%;
     padding: 75px 50px 50px 50px;
     gap: 50px;
+    flex-wrap: wrap;
 }
 .peoplesays-card{
-    width: 500px;
+    width: 5% !important;
     background-color: #ffffff;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     border-radius: 50px;
@@ -347,6 +348,37 @@ a:hover{
 .rating{
     margin-top: 30px;
     gap: 10px;
+} */
+.swiperbox{
+    height: 50%;
+    margin-top: 100px;
+}
+.boxwrapper{
+    padding: 10px;
+    width: 100% !important;
+}
+.slide{
+    margin-top: 50px;
+    width: 500px !important;
+    height: 70% !important;
+    background-color: #fff;
+    box-shadow: 5px 5px 5px rgba(151, 146, 146, 0.5);
+    position: relative;
+    padding: 60px 40px !important;
+    border-radius: 20px;
+}
+.slide:hover{
+    box-shadow: 10px 0px 10px rgba(151, 146, 146, 0.5);
+    transform: translateY(-10px) !important;
+    cursor: pointer !important;
+}
+.user-image{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: 50px;
 }
 
 
@@ -392,4 +424,4 @@ footer p{
 .footer_links ul{
     flex-direction: column;
     gap: 20px;
-}
+}   
