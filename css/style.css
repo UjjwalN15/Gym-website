@@ -353,18 +353,23 @@ a:hover{
     height: 50%;
     margin-top: 100px;
 }
+.rating{
+    margin:10px;
+    gap: 10px;
+}
+.user-info{
+    margin-top: 20px;
+}
 .boxwrapper{
     padding: 10px;
     width: 100% !important;
 }
 .slide{
+    height: max-content !important;
     margin-top: 50px;
     width: 500px !important;
-    height: 70% !important;
-    background-color: #fff;
     box-shadow: 5px 5px 5px rgba(151, 146, 146, 0.5);
-    position: relative;
-    padding: 60px 40px !important;
+    padding: 60px 0 10px 20px !important;
     border-radius: 20px;
 }
 .slide:hover{
